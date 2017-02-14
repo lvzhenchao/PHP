@@ -1,0 +1,927 @@
+body{
+	background-color:#F1F2F6;
+}
+/*标题大块开始*/
+#ti{
+	height:144px;
+	width:100%;
+	min-width:960px;
+	margin:0px auto;
+	/*border:1px solid red;*/
+}
+/*标题大块-标题1 顶连接块框架开始*/
+#ti > div:first-child{
+	height:22px;
+	width:100%;
+	margin:0 auto;
+	background-color:#E6E9EE;
+	/*border:1px solid green;*/
+}
+#ti > div:first-child > div{
+	width:1080px;
+	margin:0 auto;
+}
+#ti > div:first-child > div > div:first-child{
+	height:100%;
+	float:left;
+	line-height:22px;
+	/*border:1px solid yellow;*/
+}
+#ti > div:first-child > div > div:nth-of-type(2){
+	height:100%;
+	float:right;
+	line-height:22px;
+	/*border:1px solid pink;*/
+}
+/*标题大块-标题1 顶连接块框架结束*/
+
+/*标题大块-标题2 LOGO、登录块开始*/
+#ti > div:nth-of-type(2){
+	height:83px;
+	width:1080px;
+	margin:0 auto;
+	/*border:1px solid red;*/
+	background-color:F1F2F6;
+}
+#ti-logo{
+	height:100%;
+	width:220px;
+	/*border:1px solid green;*/
+	float:left;
+}
+#ti-logo > img{
+	height:100%;
+}
+/*------------登录进入login新模块开始------------------*/
+#ti-logo + div{
+	height:100%;
+	width:180px;
+	/*border:1px solid yellow;*/
+	float:left;
+	padding-top:40px;
+	margin-left:50px;
+	box-sizing:border-box;
+}
+
+#ti-logo + div + div{
+	height:80px;
+	width:400px;
+	float:right;
+	padding:10px;
+	box-sizing:border-box;
+	/*border:1px solid yellow;*/
+}
+#ti-login{
+
+	/*width:100%
+	height:100%;*/
+	/*border:1px solid red;*/
+}
+#ti-login img{
+	margin-right:20px;
+	float:left;
+	width:50px;
+	height:50px;
+	border:1px solid #CCCCCC;
+}
+#ti-login > div:first-of-type{
+	float:left;
+	width:200px;
+	margin-top:3px;
+	font-weight:bold;
+	/*border:1px solid blue;*/
+}
+#ti-login > div:nth-of-type(2){
+	float:left;
+	width:100px;
+	margin-top:3px;
+	/*border:1px solid blue;*/
+}
+#ti-login > div:nth-of-type(3){
+	float:left;
+	width:250px;
+	color:orange;
+	margin-top:9px;
+	text-align:center;
+	/*border:1px solid blue;*/
+}
+#ti-login a{
+	float:right;
+	margin-right:50px;
+}
+/*------------登录进入login新模块结束------------------*/
+
+#ti-input{
+	width:160px;
+	/*border:1px solid green;*/
+	float:right;
+	margin-left:5px;
+	margin-right:35px;
+	margin-top:10px;
+}
+#ti-input > div:first-child{
+	/*border:1px solid red;*/
+	height:19px;
+	width:78px;
+	float:left;
+	margin-top:1px;
+}
+#ti-input > div:first-child > input{
+	display:block;
+	float:left;
+	margin-top:2px;
+}
+#ti-input > div:first-child > a{
+	display:block;
+	float:right;
+	margin-top:2px;
+}
+#ti-input > div:nth-of-type(2){
+	/*border:1px solid blue;*/
+	height:17px;
+	width:57px;
+	float:right;
+	margin-bottom:3px;
+	text-align:right;
+}
+#ti-input > div:nth-of-type(3){
+	/*border:1px solid yellow;*/
+	height:20px;
+	width:75px;
+	float:left;	
+	text-align:center;
+}
+#ti-input > div:nth-of-type(3) button{
+	width:70px;
+	height:35px;
+	font-weight:bold;
+}
+#ti-input > div:nth-of-type(3) input{
+	width:80px;
+	height:20px;
+	display:block;
+}
+
+#ti-input > div:nth-of-type(4){
+	/*border:1px solid pink;*/
+	height:20px;
+	width:80px;
+	float:right;
+	text-align:right;
+}
+#ti-input > div:nth-of-type(4) button{
+	width:70px;
+	height:35px;
+	font-weight:bold;
+}
+#ti-input + div{
+	height:100%;
+	width:160px;
+	/*border:1px solid pink;*/
+	float:right;
+	margin-top:11px;
+}
+#ti-input + div > input:first-child{
+	margin-bottom:10px;
+}
+/*标题大块-标题2 LOGO、登录块结束*/
+/*标题大块-标题3 导航块开始*/
+#ti > div:nth-of-type(3){
+	height:40px;
+	width:100%;
+	/*border:1px solid green;*/
+	line-height:40px;
+	background-color:#075991;
+}
+#ti > div:nth-of-type(3) > div{
+	width:1080px;
+	margin:0 auto;
+	/*border:1px solid red;*/
+}
+#ti > div:nth-of-type(3) a{
+	width:65px;
+	height:100%;
+	display:block;
+	float:left;
+	/*border:1px solid yellow;*/
+	text-align:center;
+	color:#FFFFFF;
+}
+#ti > div:nth-of-type(3) a:hover{
+	background-color:1874CD;
+	text-decoration:none;
+	font-weight:bold;
+}
+#ti > div:nth-of-type(3) a:first-child{
+	margin-left:35px;
+}
+/*标题大块-标题2 导航块结束*/
+/*标题大块结束*/
+/* 内容布置-标题大块开始 */
+div{
+	font-size:13px;
+	color:#666666;
+}
+a:link{
+	text-decoration:none;
+	color:#666666;
+}
+a:hover{
+	text-decoration:underline;
+	color:skyblue;
+}
+/* 内容布置-标题大块结束 */
+
+/*----------------------导航开始-----------------------------*/
+
+.guide{
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:13px;
+	width:960px;
+	/*border:1px solid red;*/
+}
+
+/*----------------------导航结束-----------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*
+*已登记样式页面
+*index
+*register
+*publishPost
+*post
+*postList
+*userInfo
+*
+*/
+/*-----------------------------------------index--start--------------------------------------------------------*/
+
+
+/* 大图大块开始 */
+#bigp{
+	height:330px;
+	width:960px;
+	/*border:1px solid green;*/
+	margin:10px auto 0px auto;
+}
+#bigp > div:first-child{
+	height:100%;
+	width:593px;
+	/*border:1px solid red;*/
+	float:left;
+}
+#bigp > div:nth-of-type(2){
+	height:100%;
+	width:175px;
+	/*border:1px solid red;*/
+	float:left;
+	margin-left:10px;
+}
+#bigp > div:nth-of-type(2) > a:last-child > img{
+	margin-top:11px;
+	/*border:1px solid green;*/
+}
+#bigp > div:nth-of-type(3){
+	height:100%;
+	width:165px;
+	/*border:1px solid red;*/
+	float:left;
+	margin-left:10px;
+}
+#bigp > div:nth-of-type(3) > a:last-child > img{
+	margin-top:11px;
+	/*border:1px solid green;*/
+}
+/* 大图大块结束*/
+
+/* 内容大类开始 */
+#main{
+	width:960px;
+	/*height:800px;*/
+	/*border:1px solid red;*/
+	margin:20px auto;
+	background-color:#FFFFFF;
+}
+/* 模块子类开始 */
+.types{
+	width:100%;
+	/*border:1px solid green;*/
+	margin-top:10px;
+}
+.types > div:first-child{
+	width:100%;
+	height:40px;
+	/*border:1px solid yellow;*/
+	background-image:url("../images/h.png");
+	padding-top:10px;
+}
+.types > div:first-child div{
+	margin:auto 40px;
+	/*border:1px solid red;*/
+	color:#000000;
+	font-size:16px;
+}
+.type{
+	width:310px;
+	height:75px;
+	/*border:1px solid blue;*/
+	float:left;
+	margin-left:6px;
+}
+.type > div:first-child{
+	height:100%;
+	width:70px;
+	/*border:1px solid pink;*/
+	float:left;
+	text-align:center;
+}
+.type > div:first-child > img{
+	margin:10px auto;
+}
+.type > div:nth-of-type(2){
+	height:100px;
+	width:200px;
+	float:left;
+	margin:10px auto;
+	/*border:1px solid green;*/
+}
+.type > div:nth-of-type(2) > div:first-child{
+	width:100%;
+	/*border:1px solid red;	*/
+}
+.type > div:nth-of-type(2) > div:first-child a{
+	color:#075991;
+	font-size:15px;
+	font-weight:bold;
+}
+.small{
+	width:100%;
+	/*border:1px solid yellow;*/
+	margin-top:1px;
+}
+.small > div:first-child{
+	width:90px;
+	/*border:1px solid purple;*/
+	float:left;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+.small > div:nth-of-type(2){
+	width:90px;
+	/*border:1px solid purple;*/
+	float:right;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+.small > div:nth-of-type(3){
+	width:100%;
+	/*border:1px solid purple;*/
+	clear:both;
+}
+
+/* 模块子类结束 */
+/* 内容布置-模块子类开始 */
+.types > div:first-child > div{
+	font-weight:bold;
+}
+/* 内容布置-模块子类结束 */
+
+/* 连接子块开始 */
+#lian{
+	width:100%;
+	/*height:200px;*/
+	/*border:1px solid yellow;*/
+	/*float:left;*/
+}
+#lian > div:first-child{
+	height:40px;
+	width:100%;
+	/*border:1px solid red;*/
+	background-image:url("../images/h.png");
+}
+#lian > div:first-child >div{
+	height:100%;
+	width:100px;
+	/*border:1px solid red;*/
+	line-height:40px;
+	color:#000000;
+	font-size:16px;
+	font-weight:bold;
+	margin:auto 40px;
+}
+#lian > div:nth-of-type(2){
+	width:100%;
+	height:100px;
+	/*border:1px solid green;*/
+}
+#lian > div:nth-of-type(2) > ul  > li{
+	display:block;
+	/*border:1px solid purple;*/
+	float:left;
+	margin-left:10px;
+	margin-top:15px;
+}
+/* 连接子块结束 */
+/* 内容大类结束 */
+/*-----------------------------------------index--end--------------------------------------------------------*/
+
+/*-----------------------------------------register--start--------------------------------------------------------*/
+
+/* 登录页面开始 */
+#reg{
+	width:960px;
+	margin:0px auto;
+	margin-top:50px;
+	background-image:url("../img/wxdbjc.gif");
+	background-repeat:no-repeat;
+	background-position:290px 40px;
+	/*border:1px solid red;*/
+}
+#reg > img{
+	margin-left:30px;
+}
+#reg + div{
+	width:960px;
+	min-width:960px;
+	margin:0px auto;
+	padding-left:15px;
+	padding-right:15px;
+	background-color:#FFFFFF;
+	border-top:3px solid #838B8B;
+	box-sizing:border-box;
+	/*border:1px solid green;*/
+}
+#reg + div > div:first-of-type{
+	height:40px;
+	display:table-cell;
+	vertical-align:bottom;
+	font-weight:bold;
+	color:#666666;
+	/*border:1px solid blue;*/
+}
+#reg + div hr{
+	width:100%;
+	text-align:center;
+}
+#reg + div  > div:nth-of-type(2) > div:first-of-type{
+	
+	padding:5px;
+	width:60%;
+	min-width:600px;
+	font-size:13px;
+	background-color:#FFFAE1;
+	/*border:1px solid red;*/
+	color:#666666;
+}
+#biaodan{
+	padding-left:50px;
+	/*border:1px solid yellow;*/
+}
+#biaodan span{
+	color:red;
+}
+#biaodan > form:nth-child(1) > table:nth-child(1){
+	margin-top:40px;
+}
+#biaodan table tr,td{
+	/*border:1px solid black;*/
+	height:65px;
+}
+#biaodan table tr > td:nth-of-type(2){
+	width:537px;
+}
+#biaodan table tr > td:first-of-type{
+	text-align:right;
+}
+#biaodan table{
+	float:left;
+}
+#biaodan table a{
+	color:#075991;
+	font-weight:bold;
+	text-decoration:none;
+}
+#biaodan table a:hover{
+	text-decoration:underline;
+}
+#reded{
+	float:left;
+	height:150px;
+	margin-left:10px;
+	padding-left:20px;
+	line-height:30px;
+	border-left:1px dotted #CCCCCC;/*不可去除*/
+	/*border:1px solid red;*/
+}
+#reded a{
+	color:#000;
+	text-decoration:none;
+}
+#reded a:hover{
+	text-decoration:underline;
+}
+
+/* 登录页面结束 */
+
+/*-----------------------------------------register--end--------------------------------------------------------*/
+
+/*-----------------------------------------publishPost--start--------------------------------------------------------*/
+
+/* 导航开始 */
+.iframe{
+	width:960px;
+	height:40px;
+	line-height:38px;
+	margin:5px auto;
+	/*border:1px solid red;*/
+	padding-top:5px;
+}
+
+.iframe ~ div{
+	width:960px;
+	height:740px;
+	margin:0px auto;
+	/*border:1px solid green;*/
+}
+
+/* 导航结束 */
+
+/* 帖子编辑块开始 */
+#new_page{
+	width:960px;
+	margin:0px auto;
+	padding-left:50px;
+	padding-right:50px;
+	box-sizing:border-box;
+	border-top:3px solid #333333;
+	background-color:#FFFFFF;
+	/*border:1px solid red;*/
+}
+
+#new_page > div:first-child{
+	height:30px;
+	float:left;
+	line-height:30px;
+	margin-bottom:20px;
+	margin-top:10px;
+	/*border:1px solid blue;*/
+}
+#new_page > div:first-of-type span{
+	font-weight:bold;
+	color:#333333;
+}
+
+#new_page > div:nth-of-type(2){
+	float:left;
+	width:800px;
+	/*border:1px solid green;*/
+}
+#new_page > div:nth-of-type(2) input:first-child{
+	width:600px;
+}
+#new_page > div:nth-of-type(3){
+	float:left;
+	margin-top:10px;
+	/*border:1px solid pink;*/
+}
+
+#new_page > div:nth-of-type(4){
+	width:100%;
+	float:left;
+}
+/* 帖子编辑块结束 */
+
+/*-----------------------------------------publishPost--end--------------------------------------------------------*/
+/*-----------------------------------------post--start--------------------------------------------------------*/
+
+/* 主贴开始 */
+#main_page{
+	width:960px;
+	/*height:665px;*/
+	margin:0px auto;
+	background-color:#F7F7F7;
+	/*border:1px solid red;*/
+}
+
+.postDaohang{
+	width:920px;
+	height:35px;
+	padding-left:20px;
+	padding-right:20px;
+	/*border:1px solid red;*/
+}
+.postDaohang a{
+	color:#666666;
+	text-decoration:none;
+}
+.postDaohang > div{
+	float:left;
+	margin-right:25px;
+	background-color:#F4F4F4;
+	padding:5px 5px;
+	/*border:1px solid orange;*/
+}
+.postDaohang button{
+	float:right;
+	font-weight:bold;
+	height:30px;	
+	margin-left:20px;
+}
+
+#postTitle{
+	height:30px;
+	padding:5px;
+	border-top:2px solid #333;
+	/*border:1px solid red;*/
+}
+#postTitle div{
+	float:left;
+	margin-left:20px;
+	/*border:1px solid green;*/
+}
+#postTitle div:nth-of-type(3){
+	margin-left:35px;
+	color:#075991;
+	font-size:16px;
+	font-weight:bold;
+	line-height:30px;
+}
+.posts{
+	width:100%;
+	height:530px;
+	float:left;
+	border-top:1px solid #CCCCCC;
+	/*border:1px solid green;*/
+}
+.posts > div:first-of-type{
+	height:100%;
+	width:140px;
+	float:left;
+	padding-left:5px;
+	box-sizing:border-box;
+	/*border:1px solid green;*/
+}
+.posts > div:first-of-type >div:first-of-type{
+	margin-left:5px;
+	height:35px;
+	line-height:35px;
+	font-size:16px;
+	font-weight:bold;
+	color:#333333;
+	/*border:1px solid green;*/
+	
+}
+.posts > div:first-of-type >div:nth-of-type(2){
+	padding-left:5px;
+}
+.posts > div:first-of-type >div:nth-of-type(2) img{
+	border:1px solid #CCCCCC;
+}
+.posts > div:first-of-type >div:nth-of-type(3){
+	width:100%;
+	height:20px;
+	text-align:center;
+	font-size:14px;
+	line-height:20px;
+	/*border:1px solid green;*/
+}
+.posts > div:nth-of-type(2){
+	height:100%;
+	width:807px;
+	float:left;
+	margin-left:10px;
+	padding:10px;
+	box-sizing:border-box;
+	background-color:#FFFFFF;
+	/*border:1px solid blue;*/
+}
+.posts > div:nth-of-type(2) > div:first-of-type{
+	width:100%;
+	height:25px;
+	line-height:25px;
+	margin-bottom:10px;
+	/*border:1px solid green;*/
+	border-bottom:1px dotted #CCCCCC;
+}
+.posts > div:nth-of-type(2) > div:first-of-type > span:first-of-type{
+	color:#FF6600;
+	font-weight:bold;
+}
+
+.posts > div:nth-of-type(2) > span:last-of-type{
+	position:relative;
+	bottom:-450px;
+	left:-155px;
+}
+#postReply{
+	width:960px;
+	margin:0 auto;
+	margin-top:20px;
+	/*border:1px solid red;*/
+}
+
+/* 主贴结束 */
+
+/*-----------------------------------------post--end--------------------------------------------------------*/
+
+/*-----------------------------------------postList--start--------------------------------------------------------*/
+
+/* PHP技术交流类开始 */
+#tec{
+	width:960px;
+	margin-top:20px;
+	margin:0 auto;
+	padding:10px;
+	padding-top:15px;
+	background-color:#FFF;
+	box-sizing:border-box;
+	border-top:2px solid #333;
+	/*border:1px solid yellow;*/
+}
+#tec > div:first-of-type{
+	width:100%;
+	/*border:1px solid red;*/
+}
+#tec h6{
+	margin-bottom:15px;
+	font-size:14px;
+	color:#000000;
+}
+#tecHead{
+	width:100%;
+	height:70px;
+	box-sizing:border-box;
+	/*border:1px solid green;*/
+}
+#tecHead img{
+	float:left;
+	margin-top:5px;
+}
+#tecHead > div{
+	width:60%;
+	float:left;
+	margin-top:10px;
+	/*border:1px solid blue;*/
+}
+.tecDaohang{
+	width:100%;
+	height:35px;
+	
+}
+.tecDaohang a{
+	color:#666666;
+	text-decoration:none;
+}
+.tecDaohang > div{
+	float:left;
+	margin-right:25px;
+	background-color:#F4F4F4;
+	padding:5px 5px;
+	/*border:1px solid orange;*/
+}
+.tecDaohang input[type=submit]{
+	float:right;
+	font-weight:bold;
+	height:30px;	
+}
+
+/* 表格开始 */
+#iftetable th{
+	color:#444444;
+	background-color:#F4F4F4;
+	height:25px;
+	vertical-align:middle;
+	text-align:left;
+}
+#iftetable td{
+	height:40px;
+}
+#iftetable{
+	width:100%;
+	color:#666666;
+	margin-bottom:10px;
+
+	border-collapse:collapse;
+	vertical-align:middle;
+	border:1px dashed #F4F4F4; /*边框颜色*/
+}
+#iftetable > table:nth-child(2) > tbody:nth-child(2) > tr{
+	height:40px;
+	box-sizing:border-box;
+}
+#iftetable tr > td:nth-of-type(3) > span:last-of-type{
+	font-size:11px;
+	/*border:1px solid red;*/
+}
+#iftetable tr > td:last-of-type > span:last-of-type{
+	font-size:11px;
+	color:#999999;
+	/*border:1px solid red;*/
+}
+#iftetable tbody > tr > td:nth-of-type(2) a{
+	color:#666666;
+	text-decoration:none;
+}
+#iftetable tbody > tr > td:nth-of-type(2) a:hover{
+	text-decoration:underline;
+}
+/* 表格结束 */
+
+
+/* PHP技术交流类结束 */
+
+/*-----------------------------------------postList--end--------------------------------------------------------*/
+/*-----------------------------------------userInfo--start--------------------------------------------------------*/
+
+/* 个人中心框架模块开始 */
+#per{
+	width:960px;
+	margin:0px auto;
+	background-color:#FFFFFF;
+	/*border:1px solid red;*/
+}
+#per > div:first-of-type{
+
+}
+#per > div:nth-of-type(2){
+	width:100%;
+	height:400px;
+	/*border:1px solid pink;*/
+	float:left;
+}
+#per > div:nth-of-type(2) > div:first-of-type{
+	width:200px;
+	height:220px;
+	padding-left:15px;
+	box-sizing:border-box;
+	float:left;
+	margin-top:80px;
+	/*border:1px solid blue;*/
+	border-right:1px dotted #CCCCCC;
+}
+#per > div:nth-of-type(2) > div:first-of-type div{
+	height:25px;
+	width:100%;
+	/*border:1px solid green;*/
+}
+#per > div:nth-of-type(2) > div:first-of-type div a{
+	color:#075991;
+}
+#per > div:nth-of-type(2) > div:nth-of-type(2){
+	width:700px;
+	margin-top:100px;
+	margin-left:30px;
+	height:300px;
+	float:left;
+	/*border:1px solid red;*/
+}
+#per > div:nth-of-type(2) > div:nth-of-type(2) iframe{
+	width:100%;
+	height:100%;
+	/*border:1px solid green;*/
+}
+
+
+
+/* 个人中心框架模块结束 */
+
+/*-----------------------------------------userInfo--end--------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* 底部开始 */
+#bottom{
+	height:100px;
+	width:100%;
+	min-width:960px;
+	color:#666666;
+	/*border:1px solid red;*/
+}
+#bottom a{
+	text-decoration:none;
+	color:#666666;
+}
+#bottom a:hover{
+	text-decoration:underline;
+	color:skyblue;
+}
+#bottom div{
+	width:100%;
+	height:17px;
+	margin-top:15px;
+	text-align:center;
+	/*border:1px solid green;*/
+}
+#bottom > div:first-child span{
+	margin-left:10px;
+	margin-right:10px;
+}
+/* 底部结束 */
+/*-------------------------------------------------------------------------------*/
+.clear{
+	width:0px;
+	height:0px;
+	clear:both;
+
+}
